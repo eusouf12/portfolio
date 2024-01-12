@@ -204,3 +204,53 @@ footer{
 .social-media a{
      margin-right: 25px;
 }
+
+
+
+/* responsive style  */
+
+/* mobile device */
+@media screen and (max-width: 576px) {
+
+    .header{
+        background-image: none;
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    nav > ul{
+        gap: 15px;
+    }
+
+    .skill-container, .resume-container, footer, .about-info-container,nav, nav >ul, .banner{
+       flex-direction: column;
+        
+    }
+    #what, .banner{
+        padding: 20px;
+    }
+    footer, .about{
+        padding: 10px;
+    }
+    .footer-col{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"] ,textarea{
+        width: 50%;
+    }
+    
+    
+}
+
+/*tablet device */
+
+@media screen and (min-width:577px) (max-width: 960px)
+{
+    footer, .about{
+        padding: 30px;
+}
+
+/* computer device */
